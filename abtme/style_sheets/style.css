@@ -1,0 +1,511 @@
+body
+{
+    width: 100%;
+    height: 100vh; 
+}
+
+
+
+.sec1
+{
+    width: 100%;
+    height: 100vh;
+    background: rgb(16,48,230);
+    background: linear-gradient(123deg, rgba(16,48,230,1) 9%, rgba(0,57,142,1) 66%); 
+}
+
+
+
+.bottom
+{
+    width: 100%;
+    height: 30vh;
+    
+}
+
+.fon
+{
+    font-family: 'Paytone One', sans-serif;
+}
+
+.abhead
+{
+    font-size:5em;
+    padding-top: 20%;
+    color: #ffffff;
+}
+
+.headfon
+{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.who
+{
+    padding-top: 20%;
+    font-size: 2.5em;
+}
+
+.num
+{
+    color: blue;
+font-family: 'Do Hyeon', sans-serif;
+}
+
+.line1
+{
+    height: 2px;
+    width: 18%;
+    background-color: black;
+    position: absolute;
+    top:25%;
+    right: 102%;
+}
+.line2
+{
+    height: 2px;
+    width: 18%;
+    background-color: black;
+    position: absolute;
+    top:76%;
+    right: 102%;
+}
+.line3
+{
+    height: 2px;
+    width: 18%;
+    background-color: black;
+    position: absolute;
+    top:55%;
+    right: 102%;
+}
+.karan
+{
+    font-size: 1.5em;
+}
+
+.silcol
+{
+    color: #a5acb3;
+}
+
+.abtme
+{
+    padding-top: 21%;
+}
+
+
+.pass,.skset
+{
+    font-size: 2.5em;
+    padding-top: 10%;
+    padding-bottom: 1%;
+}
+
+.skset
+{
+    padding-bottom: 7%;
+}
+
+.passion
+{
+    padding-top: 50px;
+}
+
+.passfont
+{
+    font-size: 8em;
+    margin: 20%; 
+}
+
+
+.passhead
+{
+    font-weight: 600;
+    padding-top: 45%;
+    margin-bottom: 15px;
+}
+
+.passimg
+{
+    width: 100%;
+    height: 12vh;
+
+}
+
+.navbgss
+{
+background: rgb(30,31,34);
+background: linear-gradient(123deg, rgba(30,31,34,1) 9%, rgba(8,36,78,1) 66%, rgba(30,31,34,1) 92%);
+    height: 8vh;
+    color: #ffffff;
+}
+
+
+
+.box
+{   
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    border-style:solid;
+    border-color: white;
+    overflow: hidden;
+    margin: 40px auto;  
+    box-shadow:  0 8px 6px 6px #efefef;
+    border-radius: 24px;
+}
+
+
+.progbar
+{
+    padding-top: ;
+    margin-bottom: 5px;
+    color:#a5acb3;
+}
+
+.progress
+{
+    box-shadow:  0 10px 12px 7px #efefef;
+    background-color: #EAEAEA;
+}
+
+
+.headfonskill
+{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+
+.pbhtml,.pbcss,.pbboot,.pbps
+{
+    animation: hcbp 1s linear;
+    transition: .5s;
+    animation-delay:2s;
+    width: 85%;
+}
+
+@keyframes hcbp
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 85%;
+        
+    }
+}
+
+
+
+
+.pbajax,.pbjson,.pbpython,.pbjq
+{
+    animation: ajp 1s linear;
+    transition: .5s;
+    animation-delay:2s;
+    width: 65%;
+}
+
+@keyframes ajp
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 65%;
+        
+    }
+}
+
+.pbangular,.pbjava
+{
+    animation: aj 1s linear;
+    transition: .5s;
+    animation-delay:2s;
+    width: 50%;
+}
+
+@keyframes aj
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 50%;
+        
+    }
+}
+
+.pbjs
+{
+    animation: js 1s linear;
+    transition: .5s;
+    animation-delay:2s;
+    width: 70%;
+}
+
+@keyframes js
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 70%;
+        
+    }
+}
+
+.pbflask
+{
+    animation: flask 1s linear;
+    transition: .5s;
+    animation-delay:2s;
+    width: 60%;
+}
+
+@keyframes flask
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 60%;
+        
+    }
+}
+
+
+.pbsql
+{
+    animation: sql 1s linear;
+    transition: .5s;
+    animation-delay:2s;
+    width: 80%;
+}
+
+@keyframes sql
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width:80%;
+        
+    }
+}
+
+.pbphp
+{
+    animation: php 1s linear;
+    transition: .5s;
+    animation-delay:2s;
+    width: 75%;
+}
+
+@keyframes php
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 75%;
+        
+    }
+}
+
+.pbc
+{
+    animation: c 1s linear;
+    transition: .5s;
+    animation-delay:2s;
+    width: 45%;
+}
+
+@keyframes c
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 45%;
+        
+    }
+}
+
+
+
+.social
+{
+    width: 100%;
+background: rgb(30,31,34);
+background: linear-gradient(123deg, rgba(30,31,34,1) 9%, rgba(8,36,78,1) 66%, rgba(30,31,34,1) 92%);
+    padding-top: -5%;
+    margin-top: -2%;
+    z-index: -1;
+    
+}
+
+
+
+.socul
+{
+    padding-top: 7%;
+    display:flex;
+    transform: translate(-50,-50);
+}
+
+.fb, .ins, .goog,.lin
+{
+	color: white;
+    margin: 13px;
+    list-style: none;
+    width: 70px;
+    height: 8.4vh;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 20px;
+    box-shadow:  0 8px 5px 0px #000000;
+}
+
+
+
+
+.fb:hover a
+{
+    color:#1f3e7d;
+    transition: .3s;
+}
+
+.ins:hover a
+{
+    color: #E1306C;
+    transition: .3s;
+}
+
+.goog:hover a
+{
+    color:#DB4437;
+    transition: .3s;
+}
+
+.lin:hover a
+{
+    color:#0e76a8;
+    transition: .3s;
+}
+
+
+.scoul, a
+{
+    color: white;
+}
+
+
+
+.upar
+{
+    position: absolute;
+    z-index: 5;
+    margin-top: -20px;
+    text-align: center;
+    right: 49%;
+}
+
+
+.copywr
+{
+    padding-bottom: 1px;
+}
+
+
+.loc a:hover
+{
+    color: #a5acb3;
+    text-decoration: none;
+    transition: .5s;
+    cursor: default;
+    opacity: .5;
+}
+
+.heart
+{
+    font-size: 30px; 
+    color: RGB(197, 17, 4,.5);
+}
+
+
+.loc .heart:hover
+{ 
+    color: RGB(197, 17, 4);
+    animation: animation .9s linear infinite;
+    position: relative;
+    cursor:default;
+}
+
+
+.loc:Hover .heart
+{ 
+    color: RGB(197, 17, 4);
+    animation: animation .9s linear infinite;
+    position: relative;
+    cursor:default;
+}
+
+
+
+@keyframes animation
+{
+       0%
+    {
+        opacity: 0;
+    }     
+    10%
+    {
+        opacity: 1;  
+    }
+}
+  
+
+
+.fullskill
+{
+    margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
